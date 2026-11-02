@@ -27,6 +27,3 @@ My goal is to strengthen my programming fundamentals and gradually build real-wo
 - Exits when the user types `bye`.
 - **Concepts:** Python input/output, conditional statements, while loops, string methods, break statement.
 
-**Project location:** `Generative-AI-Projects/Mini-Chatbot/`
-
-**Run
