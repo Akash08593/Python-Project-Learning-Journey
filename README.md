@@ -1,86 +1,32 @@
-# 🐍 Python Projects – Learning Journey
+# 🚀 Python & Generative AI Learning Journey
 
-Welcome to my Python Projects Repository!
+Welcome to my learning journey! This repository documents my progress in Python programming, Data Structures & Algorithms, Machine Learning, and Generative AI through hands-on projects.
 
-This repository contains hands-on Python projects developed as part of my learning journey. My focus is on strengthening programming fundamentals, logical thinking, and practical problem-solving skills.
+My goal is to strengthen my programming fundamentals and gradually build real-world AI/ML and Generative AI applications.
 
-## 🚀 Projects
+## 🐍 Python Projects
 
 ### 1. Personal Profile Generator
-
-**Description:**  
-A simple Python application that collects personal information from the user and generates a personalized profile.
-
-**Features:**
-- Collects user information.
+- Collects personal details from the user.
 - Displays a personalized profile.
-- Uses interactive input and output.
-
-**Technologies Used:**
-- Python 3
-
-**Concepts Covered:**
-- Variables
-- Data Types
-- User Input and Output
-- Basic String Handling
+- **Concepts:** Variables, input(), print().
 
 ### 2. Student Grade Calculator
+- Accepts student details and subject marks.
+- Calculates total marks and average.
+- Determines the student's grade.
+- **Concepts:** Variables, arithmetic operations, if-elif-else conditions.
 
-**Description:**  
-A Python application that accepts student details and five subject marks, calculates total marks and average percentage, and assigns a grade based on academic performance.
+## 🤖 Generative AI Projects
 
-**Features:**
-- Accepts student name and register number.
-- Collects five subject marks.
-- Calculates total and average.
-- Assigns grades automatically.
-- Displays a student report card.
+### 3. Mini Rule-Based Chatbot
+- Interacts with users through the terminal.
+- Provides predefined responses to basic questions.
+- Supports continuous conversations.
+- Recognizes greetings and common questions.
+- Exits when the user types `bye`.
+- **Concepts:** Python input/output, conditional statements, while loops, string methods, break statement.
 
-**Technologies Used:**
-- Python 3
+**Project location:** `Generative-AI-Projects/Mini-Chatbot/`
 
-**Concepts Covered:**
-- Variables and Data Types
-- User Input
-- Type Conversion
-- Arithmetic Operators
-- Conditional Statements
-
-## 🛠️ Tools Used
-
-- Python 3
-- Visual Studio Code
-- Git
-- GitHub
-
-## ▶️ How to Run
-
-1. Clone this repository.
-2. Open the project folder in VS Code.
-3. Navigate to the project folder.
-4. Run the Python file using:
-
-```bash
-python personal_profile.py
-```
-
-Or:
-
-```bash
-python student_grade_calculator.py
-```
-
-## 🎯 Learning Goals
-
-- Improve Python programming skills.
-- Practise Data Structures and Algorithms.
-- Explore Machine Learning.
-- Learn Generative AI.
-- Build practical projects.
-
-## 📈 Learning Journey
-
-More projects will be added as I continue learning and developing my programming skills.
-
-**Learn. Build. Practise. Improve.** 🚀
+**Run
