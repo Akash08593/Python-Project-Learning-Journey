@@ -1,0 +1,21 @@
+import requests
+print("--------------------")
+print("AI Content Generator")
+print("--------------------")
+topic=input("Enter your topic:")
+prompt=f"Write a short and interesting paragraph about {topic}.Use simple English."
+response=requests.post("http://localhost:11434/api/generate",json={
+    "model":"llama3.2:1b",
+    "prompt":prompt,
+    "stream":False
+},
+timeout=180
+
+)
+if response.status_code == 200:
+    result = response.json()
+    print("\nGenerated Content:")
+    print(result["response"])
+else:
+    print("Something went wrong:", response.text)
+                       
